@@ -47,7 +47,7 @@ class Unsplash:
                     return "Dont Download"
 
             except Exception as e:
-                return "Hata"+str(e)
+                return "Error"+str(e)
 
 
 image = Unsplash
